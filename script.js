@@ -1,21 +1,20 @@
-import {findPosition} from "./utils.js"
 import {Drone} from './drone.js'
 import {GUI} from "./three.js-master/examples/jsm/libs/dat.gui.module.js"
 
-var scene, controls, camera;
-var renderer, labelRenderer, stats;
-var drones = [];
-var clock = new THREE.Clock();
-var group_drones = new THREE.Group();
-var trajectoires = new THREE.Group();
-var labels = new THREE.Group();
-var spheres = new THREE.Group();
+let scene, controls, camera;
+let renderer, labelRenderer, stats;
+let drones = [];
+let clock = new THREE.Clock();
+let group_drones = new THREE.Group();
+let trajectoires = new THREE.Group();
+let labels = new THREE.Group();
+let spheres = new THREE.Group();
 let settings;
-var gridHelper, axesHelper;
+let gridHelper, axesHelper;
 
-var frame = 0;
+let frame = 0;
 
-var lines_to_plan = new THREE.Group();
+let lines_to_plan = new THREE.Group();
 let timer = 0;
 let running = true;
 let speedmax = 10;
@@ -32,7 +31,7 @@ function init() {
     scene = new THREE.Scene();
 
     // création de la skybox
-    var textures_skybox = [
+    let textures_skybox = [
         "assets/skybox/corona_ft.png", "assets/skybox/corona_bk.png",
         "assets/skybox/corona_up.png", "assets/skybox/corona_dn.png",
         "assets/skybox/corona_rt.png", "assets/skybox/corona_lf.png",
@@ -42,13 +41,13 @@ function init() {
     //scene.fog = new THREE.Fog( 0xaaaaaa, 50, 100 );
 
     // sol
-    var texture = new THREE.TextureLoader().load( 'assets/ground/black-grass.png' );
+    let texture = new THREE.TextureLoader().load( 'assets/ground/black-grass.png' );
     texture.wrapS = THREE.RepeatWrapping;
     texture.wrapT = THREE.RepeatWrapping;
     texture.repeat.set( 5, 5 );
-    var geometry = new THREE.PlaneGeometry( 500, 500, 32 );
-    var material = new THREE.MeshPhongMaterial( { color: 0x00ff00, map: texture } );
-    var plane = new THREE.Mesh( geometry, material );
+    let geometry = new THREE.PlaneGeometry( 500, 500, 32 );
+    let material = new THREE.MeshPhongMaterial( { color: 0x00ff00, map: texture } );
+    let plane = new THREE.Mesh( geometry, material );
     scene.add( plane );
     plane.rotation.set(-Math.PI / 2, 0, 0);
 
@@ -76,7 +75,7 @@ function init() {
     axesHelper = new THREE.AxesHelper( 10 );
     scene.add( axesHelper );
 
-    var lumiere = new THREE.HemisphereLight(
+    let lumiere = new THREE.HemisphereLight(
         0xddeeff, // couleur du ciel
         0x050505, // couleur du sol
         1 // intensité
@@ -87,14 +86,14 @@ function init() {
     document.body.appendChild( stats.dom );
 
     // Chargement des données et création des drones
-    fetch("json/points.json")
+    fetch("json/waypoints.json")
         .then( response => response.json())
         .then(json => {
-            var mtlLoader = new THREE.MTLLoader();
+            let mtlLoader = new THREE.MTLLoader();
             mtlLoader.setPath('objets/drone/');
             mtlLoader.load("dji600.mtl", function (materials) {
                 materials.preload();
-                var objLoader = new THREE.OBJLoader();
+                let objLoader = new THREE.OBJLoader();
                 objLoader.setMaterials(materials);
                 objLoader.setPath('objets/drone/');
                 objLoader.load('dji600.obj', function (object) {
@@ -308,10 +307,10 @@ window.addEventListener("keydown", function (event) {
 
 
 
-var createDrones = function (object, json) {
+let createDrones = function (object, json) {
     for(const drone in json.drones){
-        var new_drone_obj = object.clone();
-        var new_drone = new Drone(new_drone_obj, json.drones[drone])
+        let new_drone_obj = object.clone();
+        let new_drone = new Drone(new_drone_obj, json.drones[drone])
 
         lines_to_plan.add(new_drone.line)
         group_drones.add(new_drone.object);
@@ -347,7 +346,7 @@ function check_intersection(clocktime){
 }
 
 
-var animate = function () {
+let animate = function () {
     requestAnimationFrame( animate );
 
     let mixerUpdateDelta = clock.getDelta();
