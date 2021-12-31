@@ -1,0 +1,3507 @@
+{
+  "description": "DRONES_TESTS_COLLISION_X_31_VOL_v1.c4d",
+  "drones": [
+    {
+      "id": 20,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -675,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -969,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1374,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1634,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1539,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1208,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -829,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -646,
+            "lng_X": -2918
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -607,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -901,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1306,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1566,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1471,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1140,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -760,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -578,
+            "lng_X": -2610
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -539,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -833,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1238,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1498,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1402,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1072,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -692,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -510,
+            "lng_X": -2303
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -471,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -765,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1170,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1430,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1334,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1004,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -624,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -442,
+            "lng_X": -1995
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -403,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -697,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1102,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1362,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1266,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -936,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -556,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -374,
+            "lng_X": -1688
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -335,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -628,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1034,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1293,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1198,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -868,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -488,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -306,
+            "lng_X": -1380
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -266,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -560,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -966,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1225,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1130,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -800,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -420,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -237,
+            "lng_X": -1072
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -198,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -492,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -898,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1157,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1062,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -732,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -352,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -169,
+            "lng_X": -765
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -130,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -424,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -830,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1089,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -994,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -664,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -284,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -101,
+            "lng_X": -457
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -62,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -356,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -761,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -1021,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -926,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -596,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -216,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": -33,
+            "lng_X": -150
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 6,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -288,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -693,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -953,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -858,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -528,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -148,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 35,
+            "lng_X": 158
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 74,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -220,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -625,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -885,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -790,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -459,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -79,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 103,
+            "lng_X": 466
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 142,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -152,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -557,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -817,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -721,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -391,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -11,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 171,
+            "lng_X": 773
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 210,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -84,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -489,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -749,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -653,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -323,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 57,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 239,
+            "lng_X": 1081
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 278,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -16,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -421,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -681,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -585,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -255,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 125,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 307,
+            "lng_X": 1388
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 346,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 53,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -353,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -612,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -517,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -187,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 193,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 375,
+            "lng_X": 1696
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 415,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 121,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -285,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -544,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -449,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -119,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 261,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 444,
+            "lng_X": 2003
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 483,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 189,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -217,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -476,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -381,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -51,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 329,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 512,
+            "lng_X": 2311
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 551,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 257,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -149,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -408,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -313,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 17,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 397,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 580,
+            "lng_X": 2619
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "waypoints": [
+        {
+          "frame": 0,
+          "id": 1,
+          "order": 1,
+          "position": {
+            "alt_Y": 500,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 30,
+          "id": 2,
+          "order": 2,
+          "position": {
+            "alt_Y": 589,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 60,
+          "id": 3,
+          "order": 3,
+          "position": {
+            "alt_Y": 785,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 90,
+          "id": 4,
+          "order": 4,
+          "position": {
+            "alt_Y": 959,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 120,
+          "id": 5,
+          "order": 5,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 619,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 150,
+          "id": 6,
+          "order": 6,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 325,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 180,
+          "id": 7,
+          "order": 7,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -80,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 210,
+          "id": 8,
+          "order": 8,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -340,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 240,
+          "id": 9,
+          "order": 9,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": -245,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 270,
+          "id": 10,
+          "order": 10,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 85,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 300,
+          "id": 11,
+          "order": 11,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 465,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 330,
+          "id": 12,
+          "order": 12,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 360,
+          "id": 13,
+          "order": 13,
+          "position": {
+            "alt_Y": 1000,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 390,
+          "id": 14,
+          "order": 14,
+          "position": {
+            "alt_Y": 995,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 420,
+          "id": 15,
+          "order": 15,
+          "position": {
+            "alt_Y": 848,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 450,
+          "id": 16,
+          "order": 16,
+          "position": {
+            "alt_Y": 657,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        },
+        {
+          "frame": 480,
+          "id": 17,
+          "order": 17,
+          "position": {
+            "alt_Y": 519,
+            "lat_Z": 648,
+            "lng_X": 2926
+          }
+        }
+      ]
+    }
+  ],
+  "framerate": 30,
+  "id": 1
+}
