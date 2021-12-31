@@ -1,0 +1,82 @@
+body {
+    margin : 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#info {
+    font-family: arial, serif;
+    background-color : rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    left : 100px;
+    top: 0;
+    width : 200px;
+    padding : 1em;
+    z-index: 100;
+}
+
+#speed {
+    font-family: arial, serif;
+    background-color : rgba(0,0,0,0.5);
+    color: red;
+    position: absolute;
+    right : 10px;
+    bottom: 10px;
+    width : 300px;
+    height: 200px;
+    padding : 1em;
+    z-index: 100;
+    overflow-y:scroll;
+}
+
+#collision {
+    font-family: arial, serif;
+    background-color : rgba(0,0,0,0.5);
+    color: red;
+    position: absolute;
+    left : 10px;
+    bottom: 10px;
+    width : 300px;
+    height: 200px;
+    padding : 1em;
+    z-index: 100;
+    overflow-y:scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #010101;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #111;
+}
+
+#speed h5, #collision h5 {
+    margin: 0;
+}
+
+#speed p, #collision p{
+    font-size: 12px;
+}
+
+
+
+.label {
+    color: #FFF;
+    font-family: sans-serif;
+    padding: 2px;
+    background: rgba( 0, 0, 0, .6 );
+}
