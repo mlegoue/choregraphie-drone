@@ -30,6 +30,10 @@ body {
     overflow-y:scroll;
 }
 
+.dg .cr.function .property-name{
+    width: 100%;
+}
+
 #collision {
     font-family: arial, serif;
     background-color : rgba(0,0,0,0.5);

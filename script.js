@@ -33,16 +33,16 @@ function init() {
 
     // création de la skybox
     var textures_skybox = [
-        "skybox/corona_ft.png", "skybox/corona_bk.png",
-        "skybox/corona_up.png", "skybox/corona_dn.png",
-        "skybox/corona_rt.png", "skybox/corona_lf.png",
+        "assets/skybox/corona_ft.png", "assets/skybox/corona_bk.png",
+        "assets/skybox/corona_up.png", "assets/skybox/corona_dn.png",
+        "assets/skybox/corona_rt.png", "assets/skybox/corona_lf.png",
     ];
     scene.background = new THREE.CubeTextureLoader().load( textures_skybox );
 
     //scene.fog = new THREE.Fog( 0xaaaaaa, 50, 100 );
 
     // sol
-    var texture = new THREE.TextureLoader().load( 'black-grass.png' );
+    var texture = new THREE.TextureLoader().load( 'assets/ground/black-grass.png' );
     texture.wrapS = THREE.RepeatWrapping;
     texture.wrapT = THREE.RepeatWrapping;
     texture.repeat.set( 5, 5 );
@@ -87,7 +87,7 @@ function init() {
     document.body.appendChild( stats.dom );
 
     // Chargement des données et création des drones
-    fetch("waypoints.json")
+    fetch("json/points.json")
         .then( response => response.json())
         .then(json => {
             var mtlLoader = new THREE.MTLLoader();
@@ -152,14 +152,10 @@ function createPanel() {
         'rayon des spheres englobantes': 2,
         'effacer les alertes collision': function () {
 
-            eraseCollisions(0);
+            eraseCollisions();
 
         },
-        'effacer les alertes vitesse': function () {
-
-            eraseSpeed(0);
-
-        },
+        'effacer les alertes vitesse': eraseSpeed,
     };
 
     folder1.add( settings, 'grille' ).onChange( showGrid );
