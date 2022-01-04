@@ -1,6 +1,9 @@
 import {Drone} from './drone.js'
 import {GUI} from "./three.js-master/examples/jsm/libs/dat.gui.module.js"
 
+
+let filename = "waypoints.json";
+
 let scene, controls, camera;
 let renderer, labelRenderer, stats;
 let drones = [];
@@ -23,8 +26,6 @@ let duration = 0;
 
 init();
 
-
-
 function init() {
 
     // création de la scène
@@ -38,9 +39,7 @@ function init() {
     ];
     scene.background = new THREE.CubeTextureLoader().load( textures_skybox );
 
-    //scene.fog = new THREE.Fog( 0xaaaaaa, 50, 100 );
-
-    // sol
+    // création du sol
     let texture = new THREE.TextureLoader().load( 'assets/ground/black-grass.png' );
     texture.wrapS = THREE.RepeatWrapping;
     texture.wrapT = THREE.RepeatWrapping;
@@ -53,28 +52,32 @@ function init() {
 
     // création de la caméra
     camera = new THREE.PerspectiveCamera( 45,window.innerWidth/window.innerHeight, 0.1, 5000 );
-
     camera.position.set( 0, 50, 50 );
+
+    // création du renderer
     renderer = new THREE.WebGLRenderer( {antialias: true} );
     renderer.setSize( window.innerWidth, window.innerHeight );
     document.body.appendChild( renderer.domElement );
 
-
+    // création du label renderer
     labelRenderer = new THREE.CSS2DRenderer();
     labelRenderer.setSize( window.innerWidth, window.innerHeight );
     labelRenderer.domElement.style.position = 'absolute';
     labelRenderer.domElement.style.top = '0px';
     document.body.appendChild( labelRenderer.domElement );
 
+    // création des controles
     controls = new THREE.OrbitControls( camera, labelRenderer.domElement );
 
-    // création des aides
+    // création de la grille
     gridHelper = new THREE.GridHelper( 500, 50 );
     scene.add( gridHelper );
 
+    // création des axes
     axesHelper = new THREE.AxesHelper( 10 );
     scene.add( axesHelper );
 
+    // création d'une lumière
     let lumiere = new THREE.HemisphereLight(
         0xddeeff, // couleur du ciel
         0x050505, // couleur du sol
@@ -82,11 +85,12 @@ function init() {
     );
     scene.add( lumiere );
 
+    // affichage des statistiques
     stats = new Stats();
     document.body.appendChild( stats.dom );
 
     // Chargement des données et création des drones
-    fetch("json/waypoints.json")
+    fetch("json/" + filename)
         .then( response => response.json())
         .then(json => {
             let mtlLoader = new THREE.MTLLoader();
@@ -107,7 +111,6 @@ function init() {
 
             });
             duration = findMaxTime(json);
-            console.log(duration);
             createPanel();
         }
     )
@@ -176,18 +179,23 @@ function createPanel() {
 function showGrid(visibility){
     gridHelper.visible = visibility;
 }
+
 function showAxis(visibility){
     axesHelper.visible = visibility;
 }
+
 function showPath(visibility){
     trajectoires.visible = visibility;
 }
+
 function showLines(visibility){
     lines_to_plan.visible = visibility;
 }
+
 function showSpheres(visibility){
     spheres.visible = visibility;
 }
+
 function showLabels(visibility){
     labels.visible = visibility;
     for(let i = 0; i < drones.length; i++){
@@ -219,9 +227,7 @@ function updateTimer(newtime) {
     for(let i = 0; i < drones.length; i++) {
         timer = newtime;
         settings.timeline = timer;
-        drones[i].update_position(timer, 0);
-        drones[i].update_label();
-        drones[i].update_line();
+        drones[i].update(timer, 0);
         drones[i].update_sphere(radius);
         spheres.children[i] = drones[i].show_sphere;
         lines_to_plan.children[i] = drones[i].line;
@@ -252,8 +258,6 @@ function eraseSpeed() {
 }
 
 
-
-
 // pour redimensionner le zone d'affichage 3D quand le fenetre change de taille
 
 function onWindowResize() {
@@ -263,48 +267,6 @@ function onWindowResize() {
     labelRenderer.setSize( window.innerWidth, window.innerHeight );
 }
 window.addEventListener( 'resize', onWindowResize, false );
-
-window.addEventListener("keydown", function (event) {
-    switch (event.key) {
-        case "a":
-            axesHelper.visible = !axesHelper.visible;
-            break;
-        case "g":
-            gridHelper.visible = !gridHelper.visible;
-            break;
-        case "t":
-            trajectoires.visible = !trajectoires.visible;
-            break;
-        case "l":
-            lines_to_plan.visible = !lines_to_plan.visible;
-            break;
-        case "s":
-            spheres.visible = !spheres.visible;
-            break;
-        case "r":
-            labels.visible = !labels.visible;
-            for(let i = 0; i < drones.length; i++){
-                if(labels.visible){
-                    drones[i].label.element.textContent = drones[i].id;
-                    drones[i].label.element.className = 'label';
-                    labels.children[i] = drones[i].label;
-                } else {
-                    drones[i].label.element.textContent = '';
-                    drones[i].label.element.className = '';
-                    labels.children[i] = drones[i].label;
-                }
-            }
-            break;
-        default:
-            return;
-    }
-    event.preventDefault(); // Pour que d'autres fonctions puissent traiter la touche
-}, true);
-
-
-
-
-
 
 
 let createDrones = function (object, json) {
@@ -327,9 +289,6 @@ let createDrones = function (object, json) {
     scene.add(spheres);
     frame = 1;
 }
-
-
-
 
 
 function check_intersection(clocktime){
@@ -356,9 +315,7 @@ let animate = function () {
         timer += mixerUpdateDelta;
         settings.timeline = timer;
         for(let i = 0; i < drones.length; i++){
-            drones[i].update_position(timer, mixerUpdateDelta);
-            drones[i].update_label();
-            drones[i].update_line();
+            drones[i].update(timer, mixerUpdateDelta);
             drones[i].update_sphere(radius);
             drones[i].check_speed(speedmax, timer);
             spheres.children[i] = drones[i].show_sphere;
@@ -370,7 +327,6 @@ let animate = function () {
             pause();
             updateTimer(duration);
         }
-
     }
 
     controls.update();

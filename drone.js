@@ -1,12 +1,27 @@
 export class Drone {
     constructor(object, json){
-        this.id = json.id;
+
+        // positions du drone
         this.positions = json.waypoints;
+
+        // initialisation de la position
         this.x = parseFloat(this.positions[0].position.lng_X)/100;
         this.y = parseFloat(this.positions[0].position.alt_Y)/100;
         this.z = parseFloat(this.positions[0].position.lat_Z)/100;
+
+        // initialisation de la vitesse
         this.speed = 0;
 
+        // création du label
+        this.id = json.id;
+        const droneDiv = document.createElement( 'div' );
+        droneDiv.className = 'label';
+        droneDiv.textContent = this.id;
+        droneDiv.style.marginTop = '-0.5em';
+        this.label = new THREE.CSS2DObject( droneDiv );
+        this.label.position.set(this.x, this.y+0.5, this.z);
+
+        // création de la sphère englobante
         const sphereGeometry = new THREE.SphereGeometry( 2, 32, 16 );
         const sphereMaterial = new THREE.MeshBasicMaterial( { color: 0xffff00, transparent: true, opacity: 0.2 } );
         const sphere = new THREE.Mesh( sphereGeometry, sphereMaterial );
@@ -15,11 +30,11 @@ export class Drone {
         this.show_sphere = sphere;
         this.show_sphere.position.set(this.x, this.y, this.z);
 
+        // création d'une lumière au centre du drone
         this.light = new THREE.PointLight( 0xffffff, // couleur
             0.5, // intensité
             10 ); // distance (0 : pas de limite)
         this.light.position.set( this.x, this.y, this.z);
-
 
         // création de l'objet et initialisation de sa position
         this.object = object.clone();
@@ -46,15 +61,13 @@ export class Drone {
         const geometry_traj = new THREE.BufferGeometry().setFromPoints( points_traj );
         this.traj = new THREE.Line( geometry_traj, material_traj );
 
-        //creation du label
-
-        const droneDiv = document.createElement( 'div' );
-        droneDiv.className = 'label';
-        droneDiv.textContent = this.id;
-        droneDiv.style.marginTop = '-0.5em';
-        this.label = new THREE.CSS2DObject( droneDiv );
-        this.label.position.set(this.x, this.y+0.5, this.z);
     };
+
+    update(clocktime, delta){
+        this.update_position(clocktime, delta);
+        this.update_label();
+        this.update_line();
+    }
 
     update_position(clocktime, delta){
         let p_x = parseFloat(this.positions[0].position.lng_X)/100;
